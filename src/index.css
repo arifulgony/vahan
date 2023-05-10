@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@font-face {
+  font-family: sansBold;
+  src: url(./asete/Font/product-sans/Product\ Sans\ Bold.ttf);
+}
+@font-face {
+  font-family: sansReg;
+  src: url(./asete/Font/product-sans/Product\ Sans\ Regular.ttf);
+}
+@font-face {
+  font-family: interBold;
+  src: url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Poppins:ital,wght@0,400;0,600;1,500&display=swap');
+}
+@font-face {
+  font-family: interSemi;
+ src: url('https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@600&family=Inter:wght@600&family=Poppins&family=Roboto&display=swap');
+}
+@font-face {
+  font-family: interReg;
+  src: url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins&family=Roboto&display=swap');
+}
+@font-face {
+  font-family: robotoRegular;
+  src: url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Poppins:ital,wght@0,400;0,600;1,500&display=swap');
+}
+
+@font-face {
+  font-family: hindVad;
+  src: url('https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@600&family=Inter&family=Poppins&family=Roboto&display=swap');
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.sansBold{
+  font-family: sansBold;
+}
+.sansReg{
+  font-family: sansReg;
+}
+.interBold{
+  font-family: interBold;
+}
+.interSemi{
+  font-family: interSemi;
+}
+.interReg{
+  font-family: interReg;
+}
+.robotoRegular{
+  font-family: robotoRegular;
+}
+.hindVad{
+  font-family: hindVad;
+}
+
+
+
+/*--- site bar active -----*/
+.active{
+  background-color:#E9E9EA;
+  border-radius: 8px;
+}
+
+/*---- landing page css -----*/
+.img-gradient:after {
+  content:'';
+  position:absolute;
+  left:0; top:0;
+  width:100%; height:100%;
+  display:inline-block;
+ background: linear-gradient(to bottom,#11428800 0%, #626d97 148.36%);
+
+  
+}
