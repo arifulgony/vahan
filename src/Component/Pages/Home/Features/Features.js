@@ -10,7 +10,7 @@ const Features = () => {
     return (
 
       <>
-      <div className="xl:w-[1436px]  lg:w-[920px] mx-auto my-8">
+      <div className="xl:w-[1436px]  lg:w-[920px] mx-auto py-12">
       <h2 className="lg:text-3xl xl:text-[55px] text-2xl sansBold text-center">
           Vahan+ <span className=" relative z-[1]">Features</span>
         </h2>
