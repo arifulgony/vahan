@@ -27,7 +27,7 @@ const Review = () => {
               <img
                 className="absolute top-0 right-0 h-[40px] mt-[-20px]"
                 src={review}
-                alt=""
+                alt="img"
               />
             </div>
           </div>
