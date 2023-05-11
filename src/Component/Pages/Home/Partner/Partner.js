@@ -3,7 +3,7 @@ import { MdShowChart } from "react-icons/md";
 
 const Partner = () => {
     return (
-      <div className="max-w-7xl mx-auto py-20">
+      <div className="xl:w-[1400px] mx-auto py-20">
         <div className="lg:my-16 my-8">
           <div className="md:flex mx-auto block justify-center items-center lg:gap-14 md:gap-6 xl:px-0 lg:px-8 md:px-8 px-4">
             <div className="xl:w-[50%] lg:w-[50%] md:w-[50%] w-full">
